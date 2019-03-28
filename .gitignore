@@ -16,6 +16,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/lib/maps*
 
 # Ignore uploaded files in development
 /storage/*
