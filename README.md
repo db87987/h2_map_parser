@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This an open-source project to help Heroes of Might and Magic II fans
+find and select maps that they would like to play
 
-Things you may want to cover:
+Currently its pre-alpha version without any eligable interface.
 
-* Ruby version
+Core files are:
 
-* System dependencies
+[map.rb](lib/map.rb) which allows to to get map basic info: map size, diffuclty, number of humans, ets.
 
-* Configuration
+[selector.rb](lib/selector.rb ) which helps to select desired maps by their attributes and copy to `desired_maps` folder
 
-* Database creation
+Feel free to open PR's, let's make it great!
 
-* Database initialization
+## Future plans
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* create web interface for uploading/selecting/downloading maps
+* user account to mark map as played
+* deploy it somewhere (will be happy is somebody will share hosting with me :) ) 
